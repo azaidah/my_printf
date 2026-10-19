@@ -6,7 +6,7 @@
 /*   By: azaidah <azaidah@student.24amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/19 13:09:00 by azaidah           #+#    #+#             */
-/*   Updated: 2026/10/19 13:13:05 by azaidah          ###   ########.fr       */
+/*   Updated: 2026/10/19 13:35:53 by azaidah          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ int ft_printf(const char *format, ...)
         }
         else
         {
-            ft_putchar(*format);
+            ft_putchar_len(*format);
             len++;
         }
         format++;
