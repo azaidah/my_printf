@@ -6,7 +6,7 @@
 /*   By: azaidah <azaidah@student.24amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/19 13:14:21 by azaidah           #+#    #+#             */
-/*   Updated: 2026/10/19 13:38:22 by azaidah          ###   ########.fr       */
+/*   Updated: 2026/10/19 19:15:56 by azaidah          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 #include <stdarg.h>
 #include <unistd.h>
+#include <stddef.h>
 
 int ft_printf(const char *format, ...);
 int ft_handle_format(char format, va_list args);
