@@ -3,7 +3,6 @@ NAME		= libftprintf.a
 SRC			= ft_printf.c \
 			  ft_handle_format.c \
 			  ft_putchar_len.c \
-			  ft_putchar.c \
 			  ft_putstr_len.c \
 			  ft_putstr.c \
 			  ft_putnbr_len.c \
