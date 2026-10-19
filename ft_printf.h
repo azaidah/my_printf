@@ -6,7 +6,7 @@
 /*   By: azaidah <azaidah@student.24amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/19 13:14:21 by azaidah           #+#    #+#             */
-/*   Updated: 2026/10/19 13:14:49 by azaidah          ###   ########.fr       */
+/*   Updated: 2026/10/19 13:24:40 by azaidah          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,5 +24,6 @@ int ft_putptr_len(unsigned long ptr, char *base);
 int ft_putnbr_len(int n);
 int ft_putunbr(unsigned int n);
 int ft_puthex_len(unsigned int n, char *base);
+int ft_putchar(char c);
 
-#endif  FT_PRINTF_H
+#endif
