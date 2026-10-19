@@ -6,13 +6,13 @@
 /*   By: azaidah <azaidah@student.24amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/19 12:47:29 by azaidah           #+#    #+#             */
-/*   Updated: 2026/10/19 19:14:56 by azaidah          ###   ########.fr       */
+/*   Updated: 2026/10/19 19:18:56 by azaidah          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_putptr_len(unsigned long ptr, char *base)
+int	ft_putptr_len(void *ptr, char *base)
 {
     int len;
 

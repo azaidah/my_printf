@@ -6,7 +6,7 @@
 /*   By: azaidah <azaidah@student.24amman.com>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/19 13:11:25 by azaidah           #+#    #+#             */
-/*   Updated: 2026/10/19 13:11:39 by azaidah          ###   ########.fr       */
+/*   Updated: 2026/10/19 19:19:13 by azaidah          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int ft_handle_format(char format, va_list args)
     else if (format == 's')
         len += ft_putstr_len(va_arg(args, char *));
     else if (format == 'p')
-        len += ft_putptr_len(va_arg(args, unsigned long), "0123456789abcdef");
+        len += ft_putptr_len(va_arg(args, void *), "0123456789abcdef");
     else if (format == 'd' || format == 'i')
         len += ft_putnbr_len(va_arg(args, int));
     else if (format == 'u')
